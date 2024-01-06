@@ -46,27 +46,32 @@ modified : changed
 staged : your file is ready to be commited
 
 # Add & Commit
-add :  Adding new file or modified file in your working directory 
-git add file name or git add .   : It means that we can add all of the file together at a time
-Commit: It is the record of the change
-git commit -m "Meaningfull message"
-Push Command: Upload local repository content to remote repository content . The file in which we were modifiying on our local machine now we have to put it on the remote access we use push command
-git push origin main
-Uncoding Changes	
-staged change
-git reset file name
-commiteed change(for one commit)
-git reset HEAD~1
-commited changes(for many commits)
-git reset <- commit hash ->
-git reset --hard <- commit hash ->
+--> add :  Adding new file or modified file in your working directory 
+--> git add file name or git add .   : It means that we can add all of the file together at a time
+--> Commit: It is the record of the change
+--> git commit -m "Meaningfull message"
+--> Push Command: Upload local repository content to remote repository content . The file in which we were modifiying on our local machine now we have to put it on the remote access we use push command
+--> git push origin main
+	-> Uncoding Changes	
+	-> staged change
+	-> git reset file name
+--> commiteed change(for one commit)
+	-> git reset HEAD~1
+	-> commited changes(for many commits)
+	-> git reset <- commit hash ->
+	-> git reset --hard <- commit hash ->
 Branch Command 
 
 git branch (to check branch)
+
 git branch -M main (to renaim the branch)
+
 git checkout <-branchname ->(to naviag
+
 git checkout -b <-new branch name->(to create new branch)
+
 git checkout -d <-branch name -> (to delete branch) 
+
 Merge Code
 
 There is 2 ways
